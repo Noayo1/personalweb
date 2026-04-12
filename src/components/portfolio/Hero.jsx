@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import { ChevronDown, GitBranch } from "lucide-react";
+import { ChevronDown, GitBranch, Download } from "lucide-react";
 
 const LOG_LINES = [
   "Initializing cloud-native environment...",
@@ -112,6 +112,15 @@ export default function Hero() {
                 ./connect.sh
               </button>
             </div>
+            <a
+              href="/resume.pdf"
+              download
+              className="inline-flex items-center gap-2 mt-3 px-6 py-3 border border-[#4ADE80]/40 text-[#4ADE80] text-xs font-bold uppercase tracking-widest rounded hover:bg-[#4ADE80]/10 transition-all font-mono focus:outline-none focus-visible:ring-2 focus-visible:ring-dashed focus-visible:ring-[#4ADE80]"
+              style={{ fontFamily: "JetBrains Mono, monospace" }}
+            >
+              <Download className="w-3.5 h-3.5" aria-hidden="true" />
+              download cv
+            </a>
           </div>
 
           <div className="bg-[#0F172A]/80 border border-[#1E293B] rounded-xl overflow-hidden backdrop-blur-sm">

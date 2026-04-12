@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { Mail, Terminal } from "lucide-react";
+import { Mail, Terminal, Download } from "lucide-react";
 
 const LinkedinIcon = (props) => (
   <svg viewBox="0 0 24 24" fill="currentColor" {...props}>
@@ -20,12 +20,13 @@ const CONTACT_LINKS = [
 ];
 
 const COMMANDS = {
-  help: () => ["Available commands:", "  mail     — open email client", "  linkedin — open LinkedIn profile", "  github   — open GitHub profile", "  clear    — clear terminal", "  whoami   — about Noa"],
+  help: () => ["Available commands:", "  mail     — open email client", "  linkedin — open LinkedIn profile", "  github   — open GitHub profile", "  cv       — download resume", "  clear    — clear terminal", "  whoami   — about Noa"],
   whoami: () => ["Noa Yonatanov", "DevOps / Cloud Infrastructure Engineer", "Specializing in AWS, Kubernetes, Terraform, GitOps"],
   clear: () => null,
   mail: () => { window.location.href = "mailto:nyo1254@gmail.com"; return ["Opening mail client... ✉"]; },
   linkedin: () => { window.open("https://www.linkedin.com/in/noa-yonatanov-824416310/", "_blank"); return ["Opening LinkedIn..."]; },
   github: () => { window.open("https://github.com/Noayo1", "_blank"); return ["Opening GitHub..."]; },
+  cv: () => { const a = document.createElement("a"); a.href = "/resume.pdf"; a.download = ""; a.click(); return ["Downloading resume... ⬇"]; },
 };
 
 function SectionLabel({ label }) {

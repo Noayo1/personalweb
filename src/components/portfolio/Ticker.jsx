@@ -12,8 +12,8 @@ export default function Ticker() {
   return (
     <div className="relative overflow-hidden py-5 border-y border-[#1E293B] bg-[#0F172A]/50">
       {/* Fade masks */}
-      <div className="absolute left-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-r from-[#030712] to-transparent pointer-events-none" />
-      <div className="absolute right-0 top-0 bottom-0 w-24 z-10 bg-gradient-to-l from-[#030712] to-transparent pointer-events-none" />
+      <div className="absolute left-0 top-0 bottom-0 w-24 z-[1] bg-gradient-to-r from-[#030712] to-transparent pointer-events-none" />
+      <div className="absolute right-0 top-0 bottom-0 w-24 z-[1] bg-gradient-to-l from-[#030712] to-transparent pointer-events-none" />
 
       <div
         className="flex gap-6 w-max"
