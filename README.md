@@ -1,4 +1,4 @@
-# *N — Noa Yonatanov | DevOps Portfolio
+# \*N - Noa Yonatanov | DevOps Portfolio
 
 A terminal-themed personal portfolio showcasing my work as a DevOps / Cloud Infrastructure Engineer.
 
@@ -22,14 +22,14 @@ Built with React, Tailwind CSS, and deployed on Cloudflare Pages.
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|------------|
-| Framework | React 19, Vite 8 |
-| Styling | Tailwind CSS v4 |
-| UI Components | Radix UI, shadcn/ui |
-| Icons | Lucide React |
-| Fonts | Inter, JetBrains Mono |
-| Hosting | Cloudflare Pages |
+| Layer         | Technology            |
+| ------------- | --------------------- |
+| Framework     | React 19, Vite 8      |
+| Styling       | Tailwind CSS v4       |
+| UI Components | Radix UI, shadcn/ui   |
+| Icons         | Lucide React          |
+| Fonts         | Inter, JetBrains Mono |
+| Hosting       | Cloudflare Pages      |
 
 ## Projects Featured
 
