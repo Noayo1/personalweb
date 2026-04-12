@@ -25,7 +25,7 @@ export const skillCategories = [
     subtitle: "AWS & GCP",
     icon: "cloud",
     color: "#FF9900",
-    skills: ["EC2", "S3", "RDS", "CloudFront", "IAM"],
+    skills: ["EC2", "ECR", "EKS", "VPC", "IAM", "S3", "CloudFront", "RDS", "Route53", "CloudWatch"],
   },
   {
     title: "Terraform",

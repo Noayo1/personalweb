@@ -5,6 +5,7 @@ import TechStack from "../components/portfolio/TechStack";
 import Projects from "../components/portfolio/Projects";
 import Contact from "../components/portfolio/Contact";
 import TelemetryFrame from "../components/portfolio/TelemetryFrame";
+import Ticker from "../components/portfolio/Ticker";
 
 export default function Home() {
   useEffect(() => {
@@ -17,6 +18,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
+        <Ticker />
         <TechStack />
         <Projects />
         <Contact />
