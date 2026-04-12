@@ -1,16 +1,54 @@
-# React + Vite
+# *N — Noa Yonatanov | DevOps Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A terminal-themed personal portfolio showcasing my work as a DevOps / Cloud Infrastructure Engineer.
 
-Currently, two official plugins are available:
+Built with React, Tailwind CSS, and deployed on Cloudflare Pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Live
 
-## React Compiler
+[noayonatanov.com](https://noayonatanov.com)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the ESLint configuration
+- **Terminal UI** — dark theme with JetBrains Mono, blinking cursors, and a working interactive terminal
+- **Mouse-reactive canvas** — dot grid background that responds to cursor movement
+- **Typewriter logs** — kubectl-style log lines typed out in real time on load
+- **Expandable tech stack** — click to reveal details for each skill category
+- **Scrolling ticker** — continuous marquee of tools and technologies
+- **Interactive contact terminal** — type commands like `help`, `mail`, `github`, `cv`
+- **Telemetry status bar** — live clock, scroll-based load percentage, system status
+- **Downloadable CV** — one-click resume download from the hero section
+- **Fully responsive** — optimized for both desktop and mobile
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Framework | React 19, Vite 8 |
+| Styling | Tailwind CSS v4 |
+| UI Components | Radix UI, shadcn/ui |
+| Icons | Lucide React |
+| Fonts | Inter, JetBrains Mono |
+| Hosting | Cloudflare Pages |
+
+## Projects Featured
+
+- **ExamList** — Production-grade cloud-native exam platform on AWS EKS with Terraform, ArgoCD, and Jenkins CI/CD
+- **Hellio HR** — LLM-native candidate management system with 4 AI pipelines, SQL-RAG chat, semantic search, and an autonomous email agent
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## License
+
+MIT
