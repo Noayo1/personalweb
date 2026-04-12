@@ -4,7 +4,7 @@
 
 ### DevOps & Cloud Infrastructure Engineer
 
-[![Live Site](https://img.shields.io/badge/Live-noayonatanov.com-22D3EE?style=for-the-badge&logo=cloudflare&logoColor=white)](https://noayonatanov.com)
+[![Live Site](https://img.shields.io/badge/Live-noayonatanov.com-22D3EE?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.noayonatanov.com)
 [![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev)
 [![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
@@ -36,6 +36,7 @@ $ cat features.txt
 ## Featured Projects
 
 ### ExamList
+
 > Production-grade cloud-native exam management platform on AWS
 
 `EKS` `Terraform` `ArgoCD` `Jenkins` `Docker` `ECR` `ALB` `cert-manager`
@@ -43,6 +44,7 @@ $ cat features.txt
 Full CI/CD pipeline with GitOps delivery, auto-scaling node groups, zero-downtime rolling deployments, and infrastructure provisioned entirely with Terraform modules.
 
 ### Hellio HR
+
 > LLM-native candidate management system with 4 AI pipelines
 
 `React` `Express` `PostgreSQL` `pgvector` `AWS Bedrock` `Strands` `Gmail MCP`
