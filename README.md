@@ -1,54 +1,88 @@
-# \*N - Noa Yonatanov | DevOps Portfolio
+<div align="center">
 
-A terminal-themed personal portfolio showcasing my work as a DevOps / Cloud Infrastructure Engineer.
+# `*N` - Noa Yonatanov
 
-Built with React, Tailwind CSS, and deployed on Cloudflare Pages.
+### DevOps & Cloud Infrastructure Engineer
 
-## Live
+[![Live Site](https://img.shields.io/badge/Live-noayonatanov.com-22D3EE?style=for-the-badge&logo=cloudflare&logoColor=white)](https://noayonatanov.com)
+[![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![Vite](https://img.shields.io/badge/Vite_8-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vite.dev)
+[![Tailwind](https://img.shields.io/badge/Tailwind_v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare_Pages-F38020?style=flat-square&logo=cloudflare&logoColor=white)](https://pages.cloudflare.com)
 
-[noayonatanov.com](https://noayonatanov.com)
+A terminal-themed portfolio showcasing DevOps expertise - interactive CLI, real-time animations, and production project case studies.
 
-## Features
+</div>
 
-- **Terminal UI** — dark theme with JetBrains Mono, blinking cursors, and a working interactive terminal
-- **Mouse-reactive canvas** — dot grid background that responds to cursor movement
-- **Typewriter logs** — kubectl-style log lines typed out in real time on load
-- **Expandable tech stack** — click to reveal details for each skill category
-- **Scrolling ticker** — continuous marquee of tools and technologies
-- **Interactive contact terminal** — type commands like `help`, `mail`, `github`, `cv`
-- **Telemetry status bar** — live clock, scroll-based load percentage, system status
-- **Downloadable CV** — one-click resume download from the hero section
-- **Fully responsive** — optimized for both desktop and mobile
+---
+
+## Highlights
+
+```
+$ cat features.txt
+```
+
+- **Interactive Terminal** - type `help`, `mail`, `github`, `cv` in the built-in CLI
+- **Mouse-Reactive Canvas** - dot grid background responding to cursor movement
+- **Typewriter Logs** - kubectl-style log lines typed out on load
+- **Expandable Tech Stack** - click-to-reveal details for 12 skill categories
+- **Scrolling Ticker** - continuous marquee of tools and technologies
+- **Telemetry Bar** - live clock, scroll-based load %, system status indicator
+- **One-Click CV** - resume download from the hero section
+- **Fully Responsive** - optimized for desktop and mobile
+
+---
+
+## Featured Projects
+
+### ExamList
+> Production-grade cloud-native exam management platform on AWS
+
+`EKS` `Terraform` `ArgoCD` `Jenkins` `Docker` `ECR` `ALB` `cert-manager`
+
+Full CI/CD pipeline with GitOps delivery, auto-scaling node groups, zero-downtime rolling deployments, and infrastructure provisioned entirely with Terraform modules.
+
+### Hellio HR
+> LLM-native candidate management system with 4 AI pipelines
+
+`React` `Express` `PostgreSQL` `pgvector` `AWS Bedrock` `Strands` `Gmail MCP`
+
+Document ingestion, SQL-RAG chat, semantic search with Titan V2 embeddings, and an autonomous email agent - all human-in-the-loop by design.
+
+---
 
 ## Tech Stack
 
-| Layer         | Technology            |
-| ------------- | --------------------- |
-| Framework     | React 19, Vite 8      |
-| Styling       | Tailwind CSS v4       |
-| UI Components | Radix UI, shadcn/ui   |
-| Icons         | Lucide React          |
-| Fonts         | Inter, JetBrains Mono |
-| Hosting       | Cloudflare Pages      |
+```
+Layer           Technology
+─────────────── ──────────────────────────
+Framework       React 19 · Vite 8
+Styling         Tailwind CSS v4
+UI              Radix UI · shadcn/ui
+Icons           Lucide React
+Fonts           Inter · JetBrains Mono
+Hosting         Cloudflare Pages
+```
 
-## Projects Featured
-
-- **ExamList** — Production-grade cloud-native exam platform on AWS EKS with Terraform, ArgoCD, and Jenkins CI/CD
-- **Hellio HR** — LLM-native candidate management system with 4 AI pipelines, SQL-RAG chat, semantic search, and an autonomous email agent
+---
 
 ## Quick Start
 
 ```bash
+# Install dependencies
 npm install
+
+# Start dev server
 npm run dev
-```
 
-Build for production:
-
-```bash
+# Build for production
 npm run build
 ```
 
-## License
+---
 
-MIT
+<div align="center">
+
+**Built by [Noa Yonatanov](https://github.com/Noayo1)**
+
+</div>

@@ -20,7 +20,7 @@ const CONTACT_LINKS = [
 ];
 
 const COMMANDS = {
-  help: () => ["Available commands:", "  mail     — open email client", "  linkedin — open LinkedIn profile", "  github   — open GitHub profile", "  cv       — download resume", "  clear    — clear terminal", "  whoami   — about Noa"],
+  help: () => ["Available commands:", "  mail     - open email client", "  linkedin - open LinkedIn profile", "  github   - open GitHub profile", "  cv       - download resume", "  clear    - clear terminal", "  whoami   - about Noa"],
   whoami: () => ["Noa Yonatanov", "DevOps / Cloud Infrastructure Engineer", "Specializing in AWS, Kubernetes, Terraform, GitOps"],
   clear: () => null,
   mail: () => { window.location.href = "mailto:nyo1254@gmail.com"; return ["Opening mail client... ✉"]; },

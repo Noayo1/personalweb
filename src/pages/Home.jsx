@@ -24,7 +24,7 @@ export default function Home() {
         <Contact />
       </main>
       <footer className="border-t border-[#1E293B] py-6 pb-12 text-center text-xs text-[#94A3B8] font-mono" style={{ fontFamily: "JetBrains Mono, monospace" }}>
-        <span className="text-[#22D3EE]">©</span> {new Date().getFullYear()} Noa Yonatanov — All systems operational
+        <span className="text-[#22D3EE]">©</span> {new Date().getFullYear()} Noa Yonatanov - All systems operational
       </footer>
     </div>
   );
